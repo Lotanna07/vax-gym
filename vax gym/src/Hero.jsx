@@ -7,7 +7,7 @@ function Hero() {
       justifyContent: 'center',
       alignItems: 'center',
       textAlign: 'center',
-      backgroundColor: '#f5f5f5'  // Light gray - change to your Figma color
+      backgroundColor: '#450693'  // Light gray - change to your Figma color
     }}>
       <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>
         Welcome to Vax Gym
