@@ -11,15 +11,23 @@ function Services() {
     },
     {
       title: "Group Fitness",
-      image: "/images/gym2.jpg",
+      image: "/Group Fitness Classes.jpg",
     },
     {
       title: "Personal Training",
-      image: "/images/gym3.jpg",
+      image: "/Personalized Training.jpg",
     },
     {
-      title: "Energy Drinks",
-      image: "/images/gym4.jpg",
+      title: "Wellness and Recovery Amenities",
+      image: "Wellness and Recovery Amenities.jpg",
+    },
+    {
+      title: "Specialty Programs",
+      image: "/Specialty Programs.jpg",
+    },
+    {
+      title: "Tech and Modern Amenities",
+      image: "/Tech and Modern Amenities.jpg",
     },
   ];
 
@@ -36,7 +44,7 @@ function Services() {
   return (
     <section className="services">
 
-      <h2 className="services-title">Our Services</h2>
+      <h1 className="services-title">Our Services</h1>
 
       <div className="slider">
 

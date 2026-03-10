@@ -159,9 +159,14 @@
 
 .services{
   padding:100px 10%;
-  background:#0f0f0f;
-  color:white;
+  background:#450693;
+  color:#FFC400;
   text-align:center;
+}
+
+.services-title{
+  font-size:4rem;
+  margin-bottom:50px;
 }
 
 .slider{
@@ -182,7 +187,7 @@
 
 .slide img{
   width:100%;
-  height:400px;
+  height:500px;
   object-fit:cover;
   border-radius:15px;
 }
