@@ -6,7 +6,7 @@ function Header() {
       </div>
       <nav className="nav">
         <a href="#home">Home</a>
-        <a href="#about.jsx">About</a>
+        <a href="#about">About</a>
         <a href="#Services">Services</a>
         <a href="#Prices">Prices</a>
         <a href="#Testimonial">Testimonials</a>

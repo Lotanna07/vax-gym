@@ -1,4 +1,4 @@
-/* HEADER */
+/* HEADER ========================================================*/
 .header {
   background-color: #450693;
   padding: 20px 40px;
@@ -31,7 +31,7 @@
 
 
 
-/*======= IMAGE=========== */
+/*======= HERO===================================================================== */
 .hero {
   position: relative;
   height: 100vh;
@@ -90,7 +90,7 @@
 }
 
 
-/*==== ABOUT SECTION ===*/
+/*==== ABOUT SECTION ============================================================*/
 .about {
   padding: 100px 20px;
   margin: 0 auto;
@@ -155,13 +155,13 @@
 
 
 
-/* SERVICES SLIDER */
+/* SERVICES SLIDER============================================================= */
 
 .services{
   padding:100px 10%;
   background:#450693;
   color:#FFC400;
-  text-align:center;
+  text-align:left;
 }
 
 .services-title{
@@ -188,7 +188,7 @@
 .slide img{
   width:100%;
   height:500px;
-  object-fit:cover;
+  object-fit:contain;
   border-radius:15px;
 }
 
@@ -206,9 +206,9 @@
   position:absolute;
   top:50%;
   transform:translateY(-50%);
-  background:#ff2c2c;
+  background:black;
   border:none;
-  color:white;
+  color:#FFC400;
   font-size:30px;
   padding:10px 18px;
   cursor:pointer;
@@ -221,4 +221,118 @@
 
 .arrow.right{
   right:10px;
+}
+
+
+
+
+/*========== PRICES ========================================= */
+
+
+.prices {
+  padding: 100px 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+  background: #450693;
+  
+}
+
+.prices-title {
+  margin-bottom: 60px;
+  font-size: 4rem;
+}
+
+.prices-title h1 {
+  font-size: 3rem;
+  color: #FFC400;
+  font-weight: 800;
+}
+
+.prices-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+}
+
+.price-card {
+  padding: 50px 30px;
+  border-radius: 25px;
+  background: #8C00FF;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  border: 2px solid #f0f0f0;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.price-card:hover {
+  transform: translateY(-15px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+.price-card.featured {
+  border-color: #FFC400;
+  background:#8C00FF;
+}
+
+.price-header {
+  margin-bottom: 30px;
+}
+
+.price-card h3 {
+  font-size: 2rem;
+  color: #FFC400;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.price-amount {
+  font-size: 4rem;
+  color: #450693;
+  font-weight: 900;
+  line-height: 1;
+}
+
+.price-amount span {
+  font-size: 4rem;
+  color: #FFC400;
+}
+
+.price-features {
+  margin: 30px 0;
+}
+
+.price-features li {
+  font-weight: 600;
+  color: #FFC400;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.price-features li::before {
+  content: "✓";
+  color: #FFC400;
+  font-weight: bold;
+  margin-right: 10px;
+  font-size: 1.2rem;
+}
+
+.price-button {
+  width: 100%;
+  padding: 18px;
+  background: linear-gradient(135deg, #450693 0%, #5a1bb8 100%);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.price-button:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(69, 6, 147, 0.4);
 }
