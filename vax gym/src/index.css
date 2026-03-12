@@ -336,3 +336,125 @@
   transform: scale(1.05);
   box-shadow: 0 10px 25px rgba(69, 6, 147, 0.4);
 }
+
+
+
+
+/* TESTIMONIAL CAROUSEL=============================================== */
+.testimonials {
+  padding: 100px 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+  text-align: center;
+  background: #450693;
+}
+
+.carousel-container {
+  background: #FF3F7F;
+  border-radius: 25px;        /* Slightly smaller radius */
+  padding: 40px 30px;         /* Less padding */
+  box-shadow: 0 20px 50px rgba(0,0,0,0.15);
+  margin: 40px auto;          /* Auto margins */
+  display: flex;
+  align-items: center;
+  gap: 30px;                  /* Space between photo/text */
+  max-width: 1100px;  
+  max-height: 500px;         /* Container width limit */
+}
+
+
+.photo-container {
+  flex-shrink: 0;
+}
+
+.member-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.testimonials-title{
+  font-size: 2rem;
+  color: #FFC400;
+}
+/*.carousel-container {
+  background:#FF3F7F;
+  border-radius: 30px;
+  padding: 60px 40px;
+  box-shadow: 0 25px 70px rgba(0,0,0,0.15);
+  margin: 60px 0;
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}*/
+
+
+.quote-mark-large {
+  font-size: 6rem;
+  color: #FFC400;
+  opacity: 0.2;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+}
+
+.testimonial-quote-large {
+  font-size: 1.6rem;
+  font-style: italic;
+  color: #450693;
+  font-weight: 500;
+  line-height: 1.5;
+  margin: 20px 0 30px;
+  position: relative;
+  z-index: 2;
+}
+
+.testimonial-author-large {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: #450693;
+  margin-bottom: 15px;
+}
+
+.stars-large {
+  font-size: 1.8rem;
+  color: #000000;
+}
+
+.progress-bar {
+  height: 4px;
+  background: #eee;
+  border-radius: 2px;
+  margin: 40px auto;
+  width: 300px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #450693, #FFC400);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.dots-container {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #ddd;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.dot.active {
+  background: #FFC400;
+  transform: scale(1.4);
+  box-shadow: 0 0 10px rgba(255, 196, 0, 0.5);
+}
