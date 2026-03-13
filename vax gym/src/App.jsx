@@ -4,6 +4,7 @@ import About from './About';
 import Services from './Services';
 import Prices from './Prices';
 import Testimonial from './Testimonial';
+import Contact from './Contact';
 function App() {
   
 
@@ -15,6 +16,7 @@ function App() {
        <Services />
        <Prices />
        <Testimonial />
+       <Contact/>
     </>
   )
 }
