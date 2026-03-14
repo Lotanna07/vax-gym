@@ -467,6 +467,7 @@
   padding: 100px 20px;
   max-width: 1500px;
   margin: 0 auto;
+  background-color: #450693;
 }
 
 .contact-title {
@@ -475,8 +476,8 @@
 }
 
 .contact-title h1 {
-  font-size: 3rem;
-  color: #450693;
+  font-size: 4rem;
+  color:#FFC400;
   font-weight: 800;
 }
 
@@ -489,23 +490,58 @@
 
 .contact-map {
   height: 400px;
-  background: #f0f0f0;
   border-radius: 25px;
-  position: relative;
   overflow: hidden;
 }
+.map-section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.map-address {
+  background:#FF3F7F;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.map-address h3 {
+  color: #450693;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.map-address p {
+  color:#450693;
+  margin: 5px 0;
+  font-weight: 600;
+}
+
+.coordinates {
+  color: #FFC400 !important;
+  font-size: 1rem;
+  font-family: monospace;
+  background: rgba(69, 6, 147, 0.1);
+  padding: 8px 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
 
 .map-placeholder {
-  position: absolute;
+  position:absolute ;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: #666;
+  color: #000000;
   font-size: 1.2rem;
 }
 
 .contact-form-container {
-  background: white;
+  background:#FF3F7F;
   padding: 50px;
   border-radius: 25px;
   box-shadow: 0 20px 60px rgba(0,0,0,0.1);
@@ -517,7 +553,7 @@
 
 .form-group label {
   display: block;
-  color: #450693;
+  color:#450693;
   font-weight: 700;
   margin-bottom: 10px;
 }
