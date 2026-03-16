@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 /* HEADER ========================================================*/
 .header {
   background-color: #450693;
@@ -51,6 +59,16 @@
   object-fit: cover;
   z-index: 1;
 }
+.hero-image::after {  /* Overlay directly on image */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to right, rgba(69,6,147,0.8), transparent);
+  z-index: 2;
+}
 
 
 .hero-overlay {
@@ -65,14 +83,16 @@
 
 .hero-content {
   position: relative;
-  z-index: 3;
+  z-index: 2;
   color: #FFC400;
-  max-width: 800px;
+  max-width: 600px;
   padding: 0 20px;
-  transform: translateY(-50%);
-  text-align: left; 
-  right: -23%;
+  text-align: center;  /* Perfect center */
+  top: 10%;           /* Vertical position */
+  left: 20%;
+  transform: translate(-50%, -50%);  /* True center */
 }
+
 
 .hero h1 {
   font-weight: 700;
@@ -231,7 +251,7 @@
 
 .prices {
   padding: 100px 20px;
-  max-width: 1500px;
+  
   margin: 0 auto;
   text-align: center;
   background: #450693;
@@ -343,7 +363,7 @@
 /* TESTIMONIAL CAROUSEL=============================================== */
 .testimonials {
   padding: 100px 20px;
-  max-width: 1500px;
+
   margin: 0 auto;
   text-align: center;
   background: #450693;
@@ -465,7 +485,7 @@
 /* CONTACT ============================================================================ */
 .contact {
   padding: 100px 20px;
-  max-width: 1500px;
+  /*max-width: 1500px;*/
   margin: 0 auto;
   background-color: #450693;
 }
