@@ -7,13 +7,13 @@
 
 
 /* HEADER ========================================================*/
-.header {
+/*.header {
   background-color: #450693;
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+}*/
 
 .logo {
   height: 249px;
@@ -152,6 +152,7 @@
   color: #FFC400;
   margin-bottom: 25px;
   font-weight: 600;
+  text-align: center;
 }
 
 .about-button {
