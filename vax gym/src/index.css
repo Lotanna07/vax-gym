@@ -7,13 +7,13 @@
 
 
 /* HEADER ========================================================*/
-/*.header {
+.header {
   background-color: #450693;
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}*/
+}
 
 .logo {
   height: 249px;
