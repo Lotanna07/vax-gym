@@ -46,7 +46,7 @@ function Testimonials() {
   const currentTestimonial = testimonials[current];
 
   return (
-    <section className="testimonials">
+    <section id="testimonials" className="testimonials">
       <div className="testimonials-title">
         <h1>Testimonials</h1>
       </div>

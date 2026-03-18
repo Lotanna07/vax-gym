@@ -1,6 +1,7 @@
 function Hero() {
   return (
-    <section className="hero">
+    <section id="home" className="hero parallax-bg">
+
       <img 
   src="/hero.jpg" 
   alt="Gym" 

@@ -3,6 +3,17 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;  /* ← SMOOTH SCROLL MAGIC */
+}
+
+/* Optional: Offset for fixed header */
+.nav a {
+  color: #FFC400;
+  margin: 0 20px;
+  text-decoration: none;
+  scroll-margin-top: 80px;  /* Space above section */
+}
 
 
 
@@ -163,6 +174,7 @@
   border-radius: 30px;
   font-size: 1.1rem;
   cursor: pointer;
+  right: auto;
 }
 
 @media (max-width: 768px) {
@@ -622,11 +634,30 @@
   }
 }
 
-/* For small devices */
 
 
-/* For medium devices */
 
+/* Base (mobile-first): Single column */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
 
-/* For large devices */
+/* Medium devices */
+@media (min-width: 600px) {
+  .container {
+    flex-direction: row; /* Side-by-side layout */
+    padding: 2rem;
+  }
+}
+
+/* Large devices */
+@media (min-width: 900px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
 

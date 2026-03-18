@@ -1,6 +1,6 @@
 function Prices() {
   return (
-    <section className="prices">
+    <section id="prices" className="prices">
       <div className="prices-title">
         <h1>Prices</h1>
       </div>

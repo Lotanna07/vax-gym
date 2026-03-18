@@ -42,8 +42,7 @@ function Services() {
   };
 
   return (
-    <section className="services">
-
+    <section id="services" className="services">
       <h1 className="services-title">Our Services</h1>
 
       <div className="slider">
