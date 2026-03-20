@@ -10,7 +10,7 @@ function About() {
            we blend cutting-edge equipment, expert-led classes, and personalized training to help you crush your goals, whether you're a beginner building strength or an athlete pushing limits. 
            Join our vibrant community of driven individuals and discover the energy, support, and results that make every sweat session count.
           </p>
-        <button className="about-button">Join Now</button>
+      
       </div>
       <img src="about.jpg" alt="Gym" className="about-image" />
     </section>
