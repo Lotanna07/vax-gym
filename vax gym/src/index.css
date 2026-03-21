@@ -45,7 +45,7 @@ html {
 }
 
 .nav a:hover {
-  color: #ea3e00;
+  color: #FF3F7F;
 }
 .nav a, .cta-button {
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -67,6 +67,10 @@ html {
   justify-content: center;
   text-align: right;
   overflow: hidden;
+  background-image: url('hero.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-content, .about-content, .contact-form-container {
@@ -155,6 +159,12 @@ html {
   gap: 60px;
   align-items: center;
   background-color: #450693;
+  background-image: url('about.jpg');
+  background-attachment: fixed !important;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
 }
 
 .about-image {
@@ -171,7 +181,7 @@ html {
 
 .about-title h1 {
   font-size: 4rem;
-  color: #FFC400;
+  color: #3fff45;
   font-weight: 800;
 }
 
@@ -185,7 +195,7 @@ html {
 .about-content p {
   font-size: 1.9rem;
   line-height: 1.8;
-  color: #FFC400;
+  color: #3fff45;
   margin-bottom: 25px;
   font-weight: 600;
   text-align: center;
@@ -223,7 +233,7 @@ html {
 
 .services{
   padding:100px 10%;
-  background:#450693;
+  background:#FF3F7F;
   color:#FFC400;
   text-align:left;
 }
