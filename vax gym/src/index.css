@@ -167,6 +167,16 @@ html {
   min-height: 100vh;
 }
 
+
+
+/* SECOND COLUMN (right/content) = black */
+.about > *:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.85);
+  border-radius: 15px;
+  padding: 30px;
+}
+
+
 .about-image {
   width: 100%;
   height: 800px;
@@ -420,7 +430,7 @@ html {
 
   margin: 0 auto;
   text-align: center;
-  background: #450693;
+  background: #DA4848;
 }
 
 .carousel-container {
